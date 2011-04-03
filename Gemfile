@@ -11,6 +11,7 @@ gem 'sqlite3'
 group :development do
   gem 'rspec-rails', '2.5'
   gem 'webrat'
+  gem 'annotate-models'
 end
 
 group :test do 
