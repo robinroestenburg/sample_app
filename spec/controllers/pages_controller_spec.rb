@@ -9,8 +9,6 @@ describe PagesController do
   
   end
   
-
-
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
