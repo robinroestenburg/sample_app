@@ -3,6 +3,7 @@ require 'spec_helper'
 describe UsersController do
   render_views
   
+  #
   describe "GET 'show'" do
       
     before(:each) do
@@ -41,7 +42,9 @@ describe UsersController do
     end
   end
   
+  # 
   describe "GET 'new'" do
+    
     it "should be successful" do
       get :new
       response.should be_success
@@ -51,6 +54,8 @@ describe UsersController do
       get :new
       response.should have_selector('title', :content => "Sign up")
     end
+    
+    
     
   end
 
