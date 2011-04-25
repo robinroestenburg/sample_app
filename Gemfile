@@ -7,11 +7,13 @@ gem 'rails', '3.0.5'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0'
+gem 'will_paginate', '3.0.pre2'
 
 group :development do
   gem 'rspec-rails', '2.5'
   gem 'webrat'
   gem 'annotate-models'
+  gem 'faker', '0.9.5'
 end
 
 group :test do 
