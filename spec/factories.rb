@@ -1,6 +1,6 @@
 Factory.define :user do |user| 
-  user.name                  "Robin Roestenburg"
-  user.email                 "robinroestenburg@gmail.com"
+  user.name                  "Example User"
+  user.email                 "example@railstutorial.org"
   user.password              "foobar"
   user.password_confirmation "foobar"
 end
