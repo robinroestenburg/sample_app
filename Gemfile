@@ -13,7 +13,7 @@ group :development do
   gem 'rspec-rails', '2.5'
   gem 'webrat'
   gem 'annotate-models'
-  gem 'faker', '0.9.5'
+  gem 'faker', '0.9.5', :require => false
 end
 
 group :test do 
